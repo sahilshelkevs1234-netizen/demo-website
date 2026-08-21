@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register | MaxSkill</title>
+
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body class="auth-body">
+
+<header class="auth-header">
+    <div class="auth-container auth-nav">
+
+        <a href="index.html" class="auth-logo">
+            <span>MAX</span>SKILL
+        </a>
+
+        <nav class="auth-navigation" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="payment.html">Payment</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main class="auth-main register-main">
+
+    <section class="auth-visual register-visual">
+
+        <div class="visual-pattern"></div>
+
+        <div class="visual-content">
+
+            <p class="auth-eyebrow">MAXSKILL / JOIN THE JOURNEY</p>
+
+            <h1>
+                START
+                <span>BUILDING.</span>
+            </h1>
+
+            <p>
+                Create your account and turn your coding
+                goals into practical skills.
+            </p>
+
+            <div class="learning-steps">
+
+                <div>
+                    <b>01</b>
+                    <span>LEARN</span>
+                </div>
+
+                <div>
+                    <b>02</b>
+                    <span>PRACTICE</span>
+                </div>
+
+                <div>
+                    <b>03</b>
+                    <span>BUILD</span>
+                </div>
+
+                <div>
+                    <b>04</b>
+                    <span>GROW</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="visual-bottom">
+            <span>YOUR SKILLS</span>
+            <span>•</span>
+            <span>YOUR FUTURE</span>
+        </div>
+
+    </section>
+
+
+    <section class="auth-form-section register-form-section">
+
+        <div class="auth-card register-card">
+
+            <p class="auth-eyebrow">ACCOUNT / REGISTER</p>
+
+            <h2>
+                CREATE
+                <span>ACCOUNT.</span>
+            </h2>
+
+            <p class="auth-subtitle">
+                Start your learning journey with MaxSkill.
+            </p>
+
+
+            <form class="auth-form" action="#" method="post">
+
+                <div class="two-fields">
+
+                    <div class="auth-field">
+                        <label for="first-name">First Name</label>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first_name"
+                            placeholder="First name"
+                            autocomplete="given-name"
+                            required
+                        >
+                    </div>
+
+                    <div class="auth-field">
+                        <label for="last-name">Last Name</label>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last_name"
+                            placeholder="Last name"
+                            autocomplete="family-name"
+                            required
+                        >
+                    </div>
+
+                </div>
+
+
+                <div class="auth-field">
+                    <label for="register-email">Email Address</label>
+                    <input
+                        type="email"
+                        id="register-email"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+
+                <div class="auth-field">
+                    <label for="learning-goal">Primary Learning Goal</label>
+
+                    <select id="learning-goal" name="learning_goal" required>
+                        <option value="" selected disabled>
+                            Select your goal
+                        </option>
+                        <option value="programming">
+                            Programming Fundamentals
+                        </option>
+                        <option value="dsa">
+                            DSA & Problem Solving
+                        </option>
+                        <option value="web">
+                            Web Development
+                        </option>
+                        <option value="ai">
+                            AI / Machine Learning
+                        </option>
+                        <option value="career">
+                            Career Preparation
+                        </option>
+                    </select>
+                </div>
+
+
+                <div class="auth-field">
+                    <label for="register-password">Create Password</label>
+
+                    <input
+                        type="password"
+                        id="register-password"
+                        name="password"
+                        placeholder="Create a strong password"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+                </div>
+
+
+                <label class="terms-check">
+
+                    <input type="checkbox" required>
+
+                    <span>
+                        I agree to the
+                        <a href="legal.html">Terms & Privacy Policy</a>
+                    </span>
+
+                </label>
+
+
+                <button type="submit" class="auth-submit">
+                    CREATE MY ACCOUNT
+                    <span>→</span>
+                </button>
+
+            </form>
+
+
+            <p class="auth-switch">
+                Already have an account?
+                <a href="login.html">Login</a>
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+</body>
+</html>
